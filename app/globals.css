@@ -1,0 +1,13 @@
+@import "tailwindcss/preflight";
+@import "tailwindcss/utilities";
+
+:root {
+  --font-sans: ui-sans-serif, system-ui, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, monospace;
+}
+
+body {
+  font-family: var(--font-sans), sans-serif;
+  color: #111827;
+  background-color: #ffffff;
+}
